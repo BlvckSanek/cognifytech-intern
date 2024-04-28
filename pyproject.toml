@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cognifyztech_intern"
+version = "0.0.1"
+description = "My intern data science project aims to unveil actionable insights from complex datasets through advanced analytics and visualization techniques."
+authors = [
+  { name = "Emmanuel Arkoh-Nelson" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License"
+]
+requires-python = "~=3.12"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["cognifyztech_intern"]
+force_sort_within_sections = true
