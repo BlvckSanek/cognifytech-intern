@@ -1,5 +1,6 @@
 # Data
-/data/
+/data/external/
+/data/interim/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -15,6 +16,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.~01-cognifyztech-notebook.ipynb
+notebooks/.~0*.ipynb
 
 # C extensions
 *.so
