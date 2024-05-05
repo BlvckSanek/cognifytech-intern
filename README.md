@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-My intern data science project aims to unveil actionable insights from complex datasets through advanced analytics and visualization techniques.
+My intern data science project aims to unveil actionable insights from complex datasets through advanced analytics, visualization techniques and machine learning models.
 
 ## Project Organization
 
@@ -58,5 +58,7 @@ My intern data science project aims to unveil actionable insights from complex d
         └── visualize.py
 ```
 
+To run the notebook succesfully, kindly make sure to load the dataset in the data/ directory. 
+Your suggestions, cotributions and suggestions are warmly welcomed.
 --------
 
