@@ -58,7 +58,7 @@ My intern data science project aims to unveil actionable insights from complex d
         └── visualize.py
 ```
 
-To run the notebook succesfully, kindly make sure to load the dataset in the data/ directory. 
-Your suggestions, cotributions and suggestions are warmly welcomed.
+To run the notebook succesfully, kindly make sure to load the dataset in the /data/ directory. 
+Your suggestions, contributions and suggestions are warmly welcomed.
 --------
 
